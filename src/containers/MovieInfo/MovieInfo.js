@@ -18,7 +18,9 @@ const MovieInfo = (props) => {
     }, [props.match.params.id]);
 
     return (
-        singleShow ? <ShowFilmInfo movie={singleShow}/> : <Spinner/>
+        <div className='container'>
+            {singleShow ? <ShowFilmInfo movie={singleShow}/> : <Spinner/>}
+        </div>
     );
 };
 

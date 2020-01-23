@@ -86,7 +86,7 @@ export default function SearchAppBar() {
         <Fragment>
             <div className={classes.root}>
                 <AppBar position="static">
-                    <Toolbar>
+                    <Toolbar className='container'>
                         <Typography className={classes.title} variant="h6" noWrap>
                             TV Shows
                         </Typography>
